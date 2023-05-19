@@ -1,0 +1,301 @@
+﻿
+@{
+    ViewData["Title"] = "Trang chủ";
+    Layout = "_Layout";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model List<DaiLyOTO.Models.Xe>
+
+<main id="main">
+    <div id="content" role="main" class="content-area">
+        <div class="banner">
+            <img width="1920" height="700" src="~/assets/img/banner.jpg" class="size-large" alt="">
+        </div>
+
+        <div class="container section-title-container h3">
+            <h4 class="section-title section-title-center">
+                <b></b><span class="section-title-main" style="font-size:90%;color:rgb(255, 0, 0);">Danh mục sản phẩm</span><b></b>
+            </h4>
+        </div>
+
+        <div class="row">
+            <div class="col small-12 large-12">
+                <div class="col-inner">
+                    <div class="row large-columns-4 medium-columns- small-columns-2 row-small">
+                        <div class="product-category col">
+                            <div class="col-inner">
+                                <a asp-controller="Home" asp-action="Products" asp-route-maDong="Stargazer">
+                                    <div class="box box-category has-hover box-normal ">
+                                        <div class="box-image" style="width:90%;">
+                                            <div class="">
+                                                <img src="~/assets/img/danhmuc/stargazer.jpg" alt="Hyundai Stargazer" width="300" height="300">
+                                            </div>
+                                        </div>
+                                        <div class="box-text text-center">
+                                            <div class="box-text-inner">
+                                                <h5 class="uppercase header-title">Hyundai Stargazer</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-category col">
+                            <div class="col-inner">
+                                <a asp-controller="Home" asp-action="Products" asp-route-maDong="Elantra">
+                                    <div class="box box-category has-hover box-normal ">
+                                        <div class="box-image" style="width:90%;">
+                                            <div class="">
+                                                <img src="~/assets/img/danhmuc/elantra.jpg" alt="Hyundai Elantra" width="300" height="300">
+                                            </div>
+                                        </div>
+                                        <div class="box-text text-center">
+                                            <div class="box-text-inner">
+                                                <h5 class="uppercase header-title">Hyundai Elantra</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-category col">
+                            <div class="col-inner">
+                                <a asp-controller="Home" asp-action="Products" asp-route-maDong="Grandi10">
+                                    <div class="box box-category has-hover box-normal ">
+                                        <div class="box-image" style="width:90%;">
+                                            <div class="">
+                                                <img src="~/assets/img/danhmuc/hatchback.jpg" alt="i10 Hatchback" width="300" height="300">
+                                            </div>
+                                        </div>
+                                        <div class="box-text text-center">
+                                            <div class="box-text-inner">
+                                                <h5 class="uppercase header-title">i10 Hatchback</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-category col">
+                            <div class="col-inner">
+                                <a asp-controller="Home" asp-action="Products" asp-route-maDong="Grandi10">
+                                    <div class="box box-category has-hover box-normal ">
+                                        <div class="box-image" style="width:90%;">
+                                            <div class="">
+                                                <img src="~/assets/img/danhmuc/sedan.jpg" alt="i10 Sedan" width="300" height="300">
+                                            </div>
+                                        </div>
+                                        <div class="box-text text-center">
+                                            <div class="box-text-inner">
+                                                <h5 class="uppercase header-title">i10 Sedan</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-category col">
+                            <div class="col-inner">
+                                <a asp-controller="Home" asp-action="Products" asp-route-maDong="Accent">
+                                    <div class="box box-category has-hover box-normal ">
+                                        <div class="box-image" style="width:90%;">
+                                            <div class="">
+                                                <img src="~/assets/img/danhmuc/Acent2021.jpg" alt="Hyundai Accent" width="300" height="300">
+                                            </div>
+                                        </div>
+                                        <div class="box-text text-center">
+                                            <div class="box-text-inner">
+                                                <h5 class="uppercase header-title">Hyundai Accent</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-category col">
+                            <div class="col-inner">
+                                <a asp-controller="Home" asp-action="Products" asp-route-maDong="Santafe">
+                                    <div class="box box-category has-hover box-normal ">
+                                        <div class="box-image" style="width:90%;">
+                                            <div class="">
+                                                <img src="~/assets/img/danhmuc/santafe.jpg" alt="Hyundai Santafe" width="300" height="300">
+                                            </div>
+                                        </div>
+                                        <div class="box-text text-center">
+                                            <div class="box-text-inner">
+                                                <h5 class="uppercase header-title">Hyundai Santafe</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-category col">
+                            <div class="col-inner">
+                                <a asp-controller="Home" asp-action="Products" asp-route-maDong="Tucson">
+                                    <div class="box box-category has-hover box-normal ">
+                                        <div class="box-image" style="width:90%;">
+                                            <div class="">
+                                                <img src="~/assets/img/danhmuc/tucson.jpg" alt="Hyundai Tucson" width="300" height="300">
+                                            </div>
+                                        </div>
+                                        <div class="box-text text-center">
+                                            <div class="box-text-inner">
+                                                <h5 class="uppercase header-title">Hyundai Tucson</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="product-category col">
+                            <div class="col-inner">
+                                <a asp-controller="Home" asp-action="Products" asp-route-maDong="Creta">
+                                    <div class="box box-category has-hover box-normal ">
+                                        <div class="box-image" style="width:90%;">
+                                            <div class="">
+                                                <img src="~/assets/img/danhmuc/creta.jpg" alt="Hyundai Creta" width="300" height="300">
+                                            </div>
+                                        </div>
+                                        <div class="box-text text-center">
+                                            <div class="box-text-inner">
+                                                <h5 class="uppercase header-title">Hyundai Creta</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container section-title-container h3">
+            <h3 class="section-title section-title-center"><b></b><span class="section-title-main" style="font-size:90%;color:rgb(255, 0, 0);">SẢN PHẨM NỔI BẬT</span><b></b></h3>
+        </div>
+        <div class="row large-columns-4 medium-columns- small-columns-2 row-small">
+            @foreach (var item in Model)
+            {
+                <div class="product-small col has-hover product">
+                    <div class="col-inner" id="hover-box">
+                        @if(item.GiamGia!=null){
+                            <div class="badge-container absolute left top z-1">
+                                <div class="callout badge badge-square">
+                                    <div class="badge-inner secondary on-sale">
+                                        <span class="onsale">Giảm giá!</span>
+                                    </div>
+                                </div>
+                            </div>
+                            }
+                        <div class="product-small box ">
+                            <div class="box-image">
+                                <div class="image-none">
+                                    <a asp-controller="Home" asp-action="ProductDetail" asp-route-maXe="@item.MaXe">
+                                        <img width="450" height="360" src="@Url.Content("~/assets/img/sanpham/"+item.FileAnh)" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="Anh san pham" loading="lazy">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="box-text box-text-products">
+                                <div class="title-wrapper">
+                                    <p class="name product-title">
+                                        <a asp-controller="Home" asp-action="ProductDetail" asp-route-maXe="@item.MaXe">@item.TenXe</a>
+                                    </p>
+                                </div>
+                                <div class="price-wrapper">
+                                    <span class="price">
+                                        @if (item.GiamGia != null)
+                                        {
+                                            <del>
+                                                <span class="woocommerce-Price-amount amount">
+                                                    @string.Format("{0:N0}", item.GiaBan)
+                                                    <span class="woocommerce-Price-currencySymbol"> VNĐ</span>
+                                                </span>
+                                            </del>
+                                            <ins>
+                                                <span class="woocommerce-Price-amount amount">
+                                                    @string.Format("{0:N0}", item.GiamGia)
+                                                    <span class="woocommerce-Price-currencySymbol"> VNĐ</span>
+                                                </span>
+                                            </ins>
+                                        }
+                                        else
+                                        {
+                                            <span class="woocommerce-Price-amount amount">
+                                                @string.Format("{0:N0}",item.GiaBan)
+                                                <span class="woocommerce-Price-currencySymbol"> VNĐ</span>
+                                            </span>
+                                        }
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+
+        <div class="container section-title-container h3">
+            <h3 class="section-title section-title-center"><b></b><span class="section-title-main" style="font-size:90%;color:rgb(0, 0, 0);">Hình ảnh giao xe</span><b></b></h3>
+        </div>
+
+        <div class="row">
+            <div class="col small-12 large-12">
+                <div class="col-inner">
+                    <div class="row large-columns-4 medium-columns- small-columns-2 row-xsmall">
+                        <div class="gallery-col col">
+                            <div class="col-inner">
+                                <a class="image-lightbox lightbox-gallery" title="">
+                                    <div class="box has-hover gallery-box box-default">
+                                        <div class="box-image">
+                                            <img width="1180" height="1241" src="~/assets/img/giao-xe-01.jpg" alt="" sizes="(max-width: 1180px) 100vw, 1180px">
+                                        </div>
+                                        <div class="box-text text-left"><p></p></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-col col">
+                            <div class="col-inner">
+                                <a class="image-lightbox lightbox-gallery" title="">
+                                    <div class="box has-hover gallery-box box-default">
+                                        <div class="box-image">
+                                            <img width="1180" height="1241" src="~/assets/img/giao-xe-02.jpg" alt="" sizes="(max-width: 1180px) 100vw, 1180px">
+                                        </div>
+                                        <div class="box-text text-left"><p></p></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-col col">
+                            <div class="col-inner">
+                                <a class="image-lightbox lightbox-gallery" title="">
+                                    <div class="box gallery-box box-default">
+                                        <div class="box-image">
+                                            <img width="1180" height="1241" src="~/assets/img/giao-xe-03.jpg" alt="" sizes="(max-width: 1180px) 100vw, 1180px">
+                                        </div>
+                                        <div class="box-text text-left"><p></p></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="gallery-col col">
+                            <div class="col-inner">
+                                <a class="image-lightbox lightbox-gallery" title="">
+                                    <div class="box has-hover gallery-box box-default">
+                                        <div class="box-image">
+                                            <img width="1180" height="1241" src="~/assets/img/giao-xe-04.jpg" alt="" sizes="(max-width: 1180px) 100vw, 1180px">
+                                        </div>
+                                        <div class="box-text text-left"><p></p></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+

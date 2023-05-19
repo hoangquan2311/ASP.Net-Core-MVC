@@ -1,0 +1,122 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Hyundai Cầu Giấy</title>
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/assets/css/all.min.css">
+    <link rel="stylesheet" href="~/assets/css/web2.css">
+    <link rel="stylesheet" href="~/assets/css/web1.css">
+    <link rel="stylesheet" href="~/assets/css/style.css">
+
+    <script type="text/javascript" src="~/assets/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="~/assets/js/bootstrap.min.js"></script>
+    <!-- CSS của SweetAlert2 -->
+    <link rel="stylesheet" href="~/assets/css/sweetalert2.min.css">
+
+    <!-- JavaScript của SweetAlert2 -->
+    <script src="~/assets/js/sweetalert2.all.min.js"></script>
+</head>
+<body style="color: #0a0a0a;">
+    <div id="wrapper">
+        <!-- Begin Header -->
+        <header id="header" class="header ">
+            <div class="header-wrapper">
+                <div class="header-main">
+                    <div class="header-inner flex-row container logo-left">
+                        <div id="logo" class="flex-col logo">
+                            <a asp-controller="Home" asp-action="Index" title="Hyundai Cầu Giấy">
+                                <img width="240" height="68" src="~/assets/img/logo.jpg" class="header_logo header-logo" alt="Hyundai Cầu Diễn">
+                            </a>
+                        </div>
+                        <div class="flex-col" style="width: 1300px;">
+                            <ul class="nav nav-size-large nav-uppercase">
+                                <li class="@((string)ViewData["Title"] == "Trang chủ" ? "active" : "")">
+                                    <a asp-controller="Home" asp-action="Index" >Trang chủ</a>
+                                </li>
+                                <li class="@((string)ViewData["Title"] == "Giới thiệu" ? "active" : "")">
+                                    <a asp-controller="Home" asp-action="Introduce">Giới thiệu</a>
+                                </li>
+                                <li class="@((string)ViewData["Title"] == "Sản phẩm" ? "active" : "")">
+                                    <a asp-controller="Home" asp-action="Products">Sản phẩm</a>
+                                </li>
+                                <li class="@((string)ViewData["Title"] == "Tin tức" ? "active" : "")">
+                                    <a asp-controller="Home" asp-action="News">Tin tức</a>
+                                </li>
+                                <li class="@((string)ViewData["Title"] == "Liên hệ" ? "active" : "")">
+                                    <a asp-controller="Home" asp-action="Contact">Liên hệ</a>
+                                </li>
+                                <li class="@((string)ViewData["Title"] == "Đăng ký lái thử" ? "active" : "")">
+                                    <a asp-controller="Home" asp-action="RegisterDrive">Đăng ký lái thử</a>
+                                </li>
+                                <li class="@((string)ViewData["Title"] == "Xe máy điện" ? "active" : "")">
+                                    <a asp-controller="Home" asp-action="Bike">Xe máy điện</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header End -->
+        <!-- BEGIN MAIN -->
+            @RenderBody()
+        <!-- END MAIN -->
+        <!-- BEGIN FOOTER -->
+        <footer id="footer" class="footer-wrapper">
+            <div class="footer-widgets footer footer-2 dark">
+                <div class="row dark large-columns-3 mb-0">
+                    <div id="custom_html-8" class="widget_text col pb-0 widget widget_custom_html">
+                        <span class="widget-title">Về chúng tôi</span>
+                        <div class="is-divider small"></div>
+                        <div class="textwidget custom-html-widget">
+                            <h3><strong>ĐẠI LÝ HYUNDAI CẦU DIỄN ®</strong></h3>
+                            <p><strong><i class="fas fa-home"></i> Showroom:</strong> Số 3 Cầu Giấy, P.Láng Thượng, Q.Đống Đa, Hà Nội</p>
+                            <p><strong><i class="fas fa-phone"></i> Điện thoại:</strong> 0966.111.11</p>
+                            <p><strong><i class="fas fa-envelope"></i> Email:</strong> hyundai.caugiay@gmail.com</p>
+                        </div>
+                    </div>
+                    <div id="nav_menu-3" class="col pb-0 widget widget_nav_menu">
+                        <span class="widget-title">Giới thiệu Showroom</span>
+                        <div class="is-divider small"></div>
+                        <div class="menu-gioi-thieu-showroom-container">
+                            <ul id="menu-gioi-thieu-showroom" class="menu">
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                    <a asp-controller="Home" asp-action="Introduce">Giới thiệu về chúng tôi</a>
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                    <a>Hình thành và phát triển</a>
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                    <a>Lĩnh vực hoạt động</a>
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom">
+                                    <a>Sứ mệnh – Tầm nhìn</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="custom_html-4" class="widget_text col pb-0 widget widget_custom_html">
+                        <span class="widget-title">Bản đồ</span>
+                        <div class="is-divider small"></div>
+                        <div class="textwidget custom-html-widget"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="absolute-footer dark medium-text-center small-text-center">
+                <div class="container clearfix">
+                    <div class="footer-primary pull-left">
+                        <div class="copyright-footer">Bản quyền 2023 © <strong>Website</strong></div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- END FOOTER -->
+    </div>
+
+</body>
+</html>

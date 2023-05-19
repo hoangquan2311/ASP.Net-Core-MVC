@@ -1,0 +1,725 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\DaiLyOTO.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DaiLyOTO.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\css\\login.css",
+      "PackagePath": "staticwebassets\\assets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\css\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\sweetalert2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\css\\web1.css",
+      "PackagePath": "staticwebassets\\assets\\css\\web1.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\css\\web2.css",
+      "PackagePath": "staticwebassets\\assets\\css\\web2.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\img\\avtAdmin.jpg",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\img\\avtAdmin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\js\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\js\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\js\\plugins\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\js\\plugins\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\js\\plugins\\bootstrap-notify.min.js",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\js\\plugins\\bootstrap-notify.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\js\\plugins\\chart.js",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\js\\plugins\\chart.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\js\\plugins\\dataTables.bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\js\\plugins\\dataTables.bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\js\\plugins\\fullcalendar.min.js",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\js\\plugins\\fullcalendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\js\\plugins\\jquery-ui.custom.min.js",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\js\\plugins\\jquery-ui.custom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\js\\plugins\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\js\\plugins\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\js\\plugins\\jquery.vmap.min.js",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\js\\plugins\\jquery.vmap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\js\\plugins\\jquery.vmap.sampledata.js",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\js\\plugins\\jquery.vmap.sampledata.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\js\\plugins\\jquery.vmap.world.js",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\js\\plugins\\jquery.vmap.world.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\js\\plugins\\moment.min.js",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\js\\plugins\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\js\\plugins\\pace.min.js",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\js\\plugins\\pace.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\js\\plugins\\select2.min.js",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\js\\plugins\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\js\\plugins\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\js\\plugins\\sweetalert.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\dashboard\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\dashboard\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\fonts\\HyundaiSansHead-Bold.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\HyundaiSansHead-Bold.otf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\fonts\\HyundaiSansHead-Regular.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\HyundaiSansHead-Regular.otf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\avatar.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\banner.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\danhmuc\\Acent2021.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\danhmuc\\Acent2021.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\danhmuc\\creta.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\danhmuc\\creta.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\danhmuc\\elantra.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\danhmuc\\elantra.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\danhmuc\\hatchback.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\danhmuc\\hatchback.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\danhmuc\\santafe.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\danhmuc\\santafe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\danhmuc\\sedan.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\danhmuc\\sedan.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\danhmuc\\stargazer.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\danhmuc\\stargazer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\danhmuc\\tucson.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\danhmuc\\tucson.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\drivetest.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\drivetest.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\giao-xe-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\giao-xe-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\giao-xe-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\giao-xe-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\giao-xe-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\giao-xe-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\giao-xe-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\giao-xe-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\introduce01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\introduce01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\introduce02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\introduce02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\logo.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\1adavz.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\1adavz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\23wetshdf.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\23wetshdf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\2SGHFSDH.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\2SGHFSDH.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\2wfghjf.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\2wfghjf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\339780317_774389670715555_6807775241271605564_n.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\339780317_774389670715555_6807775241271605564_n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\46TUYKGH.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\46TUYKGH.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\A34BRWE.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\A34BRWE.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\AWBWAFG.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\AWBWAFG.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\Hyundai-123hk.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\Hyundai-123hk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\Hyundai-Accent-af.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\Hyundai-Accent-af.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\Hyundai-Accent.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\Hyundai-Accent.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\Picture17-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\Picture17-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\Picture2-450x360.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\Picture2-450x360.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\Picture2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\Picture2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\Picture25.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\Picture25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\Picture29asdf.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\Picture29asdf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\Picture3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\Picture3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\Picture30.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\Picture30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\Picture33.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\Picture33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\WETGSF.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\WETGSF.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\asfgsg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\asfgsg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\creta-01-asd.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\creta-01-asd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\creta-02-12314.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\creta-02-12314.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\creta-1-8e42.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\creta-1-8e42.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\lsp80gjd72u41.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\lsp80gjd72u41.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\s57rjfxz.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\s57rjfxz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\thumil35sd.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\thumil35sd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\thumil4ergd.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\thumil4ergd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\thumnail-13sdf.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\thumnail-13sdf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\thumnail-htred.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\thumnail-htred.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\watfsd.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\watfsd.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\xfgc.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\xfgc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\sanpham\\zdgs.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\sanpham\\zdgs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\tintuc\\news01.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tintuc\\news01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\tintuc\\news02.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tintuc\\news02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\tintuc\\news03.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tintuc\\news03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\tintuc\\news04.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tintuc\\news04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\img\\tintuc\\news05.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\tintuc\\news05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\js\\jsItem.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jsItem.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\js\\sweetalert2.all.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\sweetalert2.all.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-duotone-900.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-duotone-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-duotone-900.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-duotone-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-duotone-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-duotone-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-duotone-900.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-duotone-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-duotone-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-duotone-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-light-300.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-light-300.eot"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-light-300.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-light-300.svg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-light-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\assets\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\SourceCode\\DaiLyOTO\\DaiLyOTO\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.DaiLyOTO.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.DaiLyOTO.props",
+      "PackagePath": "build\\DaiLyOTO.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.DaiLyOTO.props",
+      "PackagePath": "buildMultiTargeting\\DaiLyOTO.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.DaiLyOTO.props",
+      "PackagePath": "buildTransitive\\DaiLyOTO.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

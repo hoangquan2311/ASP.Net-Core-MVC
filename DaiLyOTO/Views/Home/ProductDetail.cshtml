@@ -1,0 +1,146 @@
+﻿
+@{
+    ViewData["Title"] = ViewBag.TenXe;
+    Layout = "_Layout";
+}
+@model DaiLyOTO.Models.Xe
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<main id="main">
+    <div class="shop-container">
+        <div class="container">
+            <div class="woocommerce-notices-wrapper"></div>
+        </div>
+        <div id="product-398" class="product type-product post-398 status-publish first instock product_cat-accent-2021 has-post-thumbnail shipping-taxable purchasable product-type-simple">
+            <div class="product-main">
+                <div class="row content-row row-divided row-large">
+                    <div id="product-sidebar" class="col large-3 hide-for-medium shop-sidebar ">
+                        <aside id="woocommerce_product_categories-13" class="widget woocommerce widget_product_categories">
+                            <span class="widget-title shop-sidebar" style="color: #0a0a0a;">Danh mục sản phẩm</span>
+                            <div class="is-divider small"></div>
+                            @await Component.InvokeAsync("TypeMenu")
+                        </aside>
+                    </div>
+                    <div class="col large-9">
+                        <div class="row">
+                            <div class="large-6 col">
+                                <div class="product-images relative mb-half has-hover woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images" data-columns="4" style="opacity: 1;">
+                                    @if (Model.GiamGia != null)
+                                    {
+                                        <div class="badge-container is-larger absolute left top z-1">
+                                            <div class="callout badge badge-square">
+                                                <div class="badge-inner secondary on-sale">
+                                                    <span class="onsale">Giảm giá!</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    }
+                                    <div class="woocommerce-product-gallery__image slide first is-selected" style="position: absolute; left: 0;">
+                                        <a><img width="700" height="396" src="@Url.Content("~/assets/img/sanpham/"+ Model.FileAnh)" class="wp-post-image skip-lazy" alt="" loading="lazy" sizes="(max-width: 700px) 100vw, 700px"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-info summary entry-summary col col-fit product-summary">
+                                <h1 class="product-title product_title entry-title">@Model.TenXe</h1>
+                                <div class="is-divider small" style="background-color: #707070;"></div>
+                                <div class="price-wrapper">
+                                    <p class="price product-page-price ">
+                                        @if (Model.GiamGia != null)
+                                        {
+                                            <del>
+                                                <span class="woocommerce-Price-amount amount">
+                                                    @string.Format("{0:N0}", @Model.GiaBan)
+                                                    <span class="woocommerce-Price-currencySymbol"> VNĐ</span>
+                                                </span>
+                                            </del>
+                                            <ins>
+                                                <span class="woocommerce-Price-amount amount">
+                                                    @string.Format("{0:N0}", @Model.GiamGia)
+                                                    <span class="woocommerce-Price-currencySymbol"> VNĐ</span>
+                                                </span>
+                                            </ins>
+                                        }
+                                        else
+                                        {
+                                            <span class="woocommerce-Price-amount amount">
+                                                @string.Format("{0:N0}", @Model.GiaBan)
+                                                <span class="woocommerce-Price-currencySymbol"> VNĐ</span>
+                                            </span>
+                                        }
+                                    </p>
+                                </div>
+                                <div class="product-short-description">
+                                    <p>– Tặng Gói ưu đãi , Hỗ Trợ đăng ký và đăng kiểm nhanh nhất. Thủ tục trả góp nhanh gọn vay vốn lên đến 90% .</p>
+                                    <p>– Ưu đãi lớn, dịch vụ bảo hành&nbsp; tốt nhất</p>
+                                    <p>– Hỗ trợ trả góp, đăng ký đăng kiểm</p>
+                                </div>
+                                <a asp-action="RegisterDrive" asp-controller="Home" asp-route-maXe="@Model.MaXe">
+                                    <button type="submit" name="add-to-cart" class="single_add_to_cart_button button alt" style="background-color: #003469;">Đăng ký lái thử</button>
+                                </a>
+                                <div class="social-icons share-icons share-row relative">
+                                    <a data-label="Facebook" class="icon button circle is-outline tooltip facebook tooltipstered">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a class="icon button circle is-outline tooltip twitter tooltipstered">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a class="icon button circle is-outline tooltip email tooltipstered">
+                                        <i class="fas fa-envelope"></i>
+                                    </a>
+                                    <a class="icon button circle is-outline tooltip pinterest tooltipstered">
+                                        <i class="fab fa-pinterest"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-footer">
+                            <div class="woocommerce-tabs wc-tabs-wrapper container tabbed-content">
+                                <ul class="tabs wc-tabs product-tabs small-nav-collapse nav nav-uppercase nav-line nav-left" role="tablist">
+                                    <li class="description_tab active" id="tab-title-description" role="tab" aria-controls="tab-description"><a href="#">Mô tả</a></li>
+                                </ul>
+                                <div class="tab-panels">
+                                    <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content active" id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">
+                                        <div id="spec-box" class="row">
+                                            <ul class="specs list-group list-group-striped col-12">
+                                                <li class="spec-item list-group-item">
+                                                    <p>Dòng xe</p>
+                                                    <div>@ViewBag.TenDong</div>
+                                                </li>
+                                                <li class="spec-item list-group-item">
+                                                    <p>Màu sắc</p>
+                                                    <div>@Model.MauSac</div>
+                                                </li>
+                                                <li class="spec-item list-group-item">
+                                                    <p>Kiểu xe</p>
+                                                    <div>@Model.KieuXe</div>
+                                                </li>
+                                                <li class="spec-item list-group-item">
+                                                    <p>Năm sản xuất</p>
+                                                    <div>@Model.NamSx</div>
+                                                </li>
+                                                <li class="spec-item list-group-item">
+                                                    <p>Số lượng tồn kho</p>
+                                                    <div>@Model.SoLuong</div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <div class="row">
+                                                @foreach (var item in ViewBag.ListAnh){
+                                                    <div class="col-md-6">
+                                                    <img loading="lazy" class="alignnone size-full wp-image-1037" src="@Url.Content("~/assets/img/sanpham/"+item.TenFile)" alt="" width="1400" height="851" sizes="(max-width: 1400px) 100vw, 1400px">
+                                                    </div>
+                                                }
+                                            </div>
+                                            <p style="text-align: left;">@Model.MoTa</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

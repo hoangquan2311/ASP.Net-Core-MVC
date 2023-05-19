@@ -1,0 +1,17 @@
+﻿@model IEnumerable<DaiLyOTO.Models.DongXe>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+
+    <ul class="product-categories">
+        
+        @foreach (var item in Model){
+            var active = "";
+            if (ViewBag.TenDong == item.TenDong)
+            {
+                active = "current-cat";
+            }
+            <li class="cat-item cat-item-36 @active">
+                <a asp-controller="Home" asp-action="Products" asp-route-maDong="@item.MaDong">@item.TenDong</a>
+            </li>
+        }
+    </ul>

@@ -1,0 +1,243 @@
+@font-face {
+    font-family: Hyundai-Regular;
+    src: url('../fonts/HyundaiSansHead-Regular.otf');
+  }
+
+@font-face {
+    font-family: Hyundai-Bold;
+    src: url('../fonts/HyundaiSansHead-Bold.otf');
+  }
+
+body {
+    font-family: Hyundai-Regular, sans-serif !important;
+    font-size: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, .heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a {
+    font-family: Hyundai-Bold !important;
+}
+
+#header {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5) ;
+}
+
+#main {
+  margin-top: 70px !important;
+}
+
+.nav > li > a {
+  font-family: Hyundai-Regular ;
+  font-weight: 700;
+}
+
+.box-image img {
+  transition: .3s;
+}
+
+.product-category:hover .box-image img {
+  transform: scale(1.1);
+}
+
+[data-icon-label]:after, .secondary.is-underline:hover, .secondary.is-outline:hover, .icon-label, .button.secondary:not(.is-outline), .button.alt:not(.is-outline), .badge-inner.on-sale, .button.checkout, .single_add_to_cart_button {
+  background-color: #ff0000;
+}
+
+span.amount {
+  color: #f00;
+}
+
+del span.amount {
+  opacity: .6;
+  font-weight: 400;
+  margin-right: 0.3em;
+}
+
+#hover-box:hover img {
+  transform: scale(1.08);
+}
+
+#hover-box {
+  transition: .3s;
+}
+
+del {
+  color: #0a0a0a;
+}
+
+.footer-2 {
+  background-color: #00356c;
+}
+
+.absolute-footer, html {
+  background-color: #00356c;
+}
+
+/* Trang san pham */
+#searchForm button {
+  border-radius: 25px;
+  border: 2px solid #ccc !important;
+  transition: all 0.3s ease-in-out !important;
+  color: #666;
+}
+
+#searchForm button:hover {
+  box-shadow: 0 0 10px rgba(0, 140, 255, 0.5) !important;
+  color: #eee;
+  background-color: #194fcd;
+
+}
+
+.search-bar {
+  border-radius: 30px !important; /* bo góc thanh search bar */
+  border-color: #ccc !important; /* màu đường viền thanh search bar */
+  padding: 6px 16px !important; /* khoảng cách lề trong thanh search bar */
+  width: 300px !important; /* độ rộng của thanh search bar */
+  transition: all 0.3s ease-in-out !important; /* hiệu ứng chuyển động */
+}
+
+.search-bar:focus {
+  border-color: #194fcd !important; /* màu đường viền khi thanh search bar đang được chọn */
+  box-shadow: 0 0 10px rgba(0, 140, 255, 0.5) !important; /* hiệu ứng bóng đổ khi thanh search bar đang được chọn */
+  outline: none !important; /* không hiển thị border khi thanh search bar đang được chọn */
+}
+
+h1, h2, h3, h4, h5, h6, .heading-font {
+  color: #0a0a0a !important;
+}
+
+#custom_html-8 h3 {
+  color: #f1f1f1 !important;
+}
+
+.badge-square {
+  box-shadow: 0 0 8px rgba(0,0,0,1);
+}
+
+#register-box {
+  box-shadow: 0 0 15px rgba(0,0,0,.5) !important;
+}
+
+#register-box h1 {
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+#register-img {
+}
+
+#register-img img {
+  width: 100%;
+}
+
+.test-driven-input-group .test-driven-text-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #cccccc;
+}
+.test-driven-input-group .test-driven-input-label {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
+#suggest-box {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 400px;
+    border: 1px #ddd solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    z-index: 3;
+    background-color: #fff;
+}
+
+    #suggest-box li {
+        list-style: none;
+        border-top: 1px #ddd solid;
+        margin-bottom: 0 !important;
+    }
+
+        #suggest-box li a {
+            display: block;
+            width: 100%;
+            padding: 8px;
+            text-decoration: none;
+            color: initial;
+            display: flex;
+        }
+
+        #suggest-box li img {
+            height: 80px;
+        }
+
+        #suggest-box li div {
+            margin-left: 14px;
+            height: 100%;
+            padding-top: 8px;
+        }
+
+        #suggest-box li .productName {
+            font-weight: 400;
+            margin-bottom: 6px;
+            font-family: Hyundai-Regular !important;
+        }
+
+        #suggest-box li .price {
+            font-weight: 700;
+            color: #d70018
+        }
+
+#searchForm {
+    position: relative;
+    overflow: visible;
+}
+
+/* chi tiet sp */
+
+#spec-box {
+    padding: 20px !important;
+    margin-bottom: 20px;
+}
+
+.specs {
+    display: block !important;
+    padding: 0 !important;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.product-specs .box-title {
+    text-align: center !important;
+}
+
+.spec-item {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    margin: 0 !important;
+    border-bottom: 0;
+}
+
+    .spec-item p {
+        display: block !important;
+        margin-bottom: 0 !important;
+        width: 40% !important;
+    }
+
+    .spec-item div {
+        width: 50% !important;
+    }
+
+.list-group-striped li:nth-of-type(even) {
+    background-color: #f0f0f0 !important;
+}
