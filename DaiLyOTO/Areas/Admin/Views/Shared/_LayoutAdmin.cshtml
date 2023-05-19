@@ -1,0 +1,132 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Quản trị Admin</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Main CSS-->
+    <link rel="stylesheet" type="text/css" href="~/assets/dashboard/css/main.css">
+    <link rel="stylesheet" href="~/assets/css/boxicons.min.css">
+    <!-- Font-icon css-->
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/assets/css/all.min.css">
+
+    <script type="text/javascript" src="~/assets/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="~/assets/js/bootstrap.min.js"></script>
+    <!-- CSS của SweetAlert2 -->
+    <link rel="stylesheet" href="~/assets/css/sweetalert2.min.css">
+
+    <!-- JavaScript của SweetAlert2 -->
+    <script src="~/assets/js/sweetalert2.all.min.js"></script>
+</head>
+
+<body>
+    <!-- Navbar-->
+    <header class="app-header">
+        <!-- Sidebar toggle button-->
+        <a class="app-sidebar__toggle" href="#" data-toggle="sidebar"
+                                        aria-label="Hide Sidebar"></a>
+        <!-- Navbar Right Menu-->
+        <ul class="app-nav">
+
+
+            <!-- User Menu-->
+        </ul>
+    </header>
+    <!-- Sidebar menu-->
+    <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+    <aside class="app-sidebar">
+        <div class="app-sidebar__user">
+            <img class="app-sidebar__user-avatar" src="~/assets/img/avatar.jpg" width="50px"
+                 alt="User Image">
+            <div>
+                <p class="app-sidebar__user-name"><b>Nguyễn Hoàng Quân</b></p>
+                <p class="app-sidebar__user-designation">Chào mừng bạn trở lại</p>
+            </div>
+        </div>
+        <hr>
+        <ul class="app-menu" style="text-decoration:none !important;">
+            <li>
+                <a class="app-menu__item haha" asp-controller="admin" asp-action="index">
+                    <i class='app-menu__icon fas fa-tachometer-alt-slowest'></i><span class="app-menu__label">Bảng điều khiển</span>
+                </a>
+            </li>
+
+            <li>
+                <a class="app-menu__item" asp-controller="ProductAdmin" asp-action="GetAllProduct">
+                    <i class='app-menu__icon fas fa-cars'></i><span class="app-menu__label">Quản lý xe</span>
+                </a>
+            </li>
+            <li>
+                <a class="app-menu__item" asp-controller="ContactAdmin" asp-action="GetAllContact">
+                    <i class='app-menu__icon fas fa-phone-rotary'></i><span class="app-menu__label">Quản lý tư vấn</span>
+                </a>
+            </li>
+            <li>
+                <a class="app-menu__item" asp-controller="DriveAdmin" asp-action="GetAllDrive">
+                    <i class='app-menu__icon fas fa-file-spreadsheet'></i><span class="app-menu__label">Quản lý phiếu đăng ký</span>
+                </a>
+            </li>
+            <li>
+                <a class="app-menu__item" asp-controller="Access" asp-action="Logout">
+                    <i class='app-menu__icon fas fa-sign-out'></i><span class="app-menu__label">Đăng xuất</span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <main class="app-content" style="margin-top:60px;">
+        @RenderBody()
+    </main>
+    <script src="~/assets/dashboard/js/popper.min.js"></script>
+    <script src="~/assets/dashboard/js/main.js"></script>
+    <script src="~/assets/dashboard/js/plugins/pace.min.js"></script>
+
+    <style>
+        .pagination li {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-weight: bold;
+            margin: 0 5px;
+        }
+
+            .pagination li:hover {
+                background: #7fad39;
+            }
+
+                .pagination li:hover a {
+                    color: #ffffff;
+                }
+
+            .pagination li.active {
+                width: 30px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                background: #7fad39;
+                border-color: #7fad39;
+                color: #ffffff;
+                font-weight: bold;
+                margin: 0 10px;
+            }
+
+        .d-flex {
+            display: flex;
+            justify-content: center;
+        }
+
+    </style>
+</body>
+
+</html>

@@ -1,0 +1,232 @@
+﻿
+@{
+    ViewData["Title"] = "Sản phẩm";
+    Layout = "_Layout";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using X.PagedList.Mvc.Core
+@model X.PagedList.IPagedList<DaiLyOTO.Models.Xe>
+
+
+<div class="shop-page-title category-page-title page-title " style="margin-top: 70px;">
+    <div class="page-title-inner flex-row  medium-flex-wrap container">
+        <div class="flex-col flex-grow medium-text-center">
+            <div class="is-medium">
+                <nav class="woocommerce-breadcrumb breadcrumbs uppercase">
+                    <a asp-controller="Home" asp-action="Index">Trang chủ</a>
+                    
+                    @if (ViewBag.TenDong != null)
+                    {
+                        <span class="divider">/</span>
+                        @ViewBag.TenDong
+                    }
+                    else
+                    {
+                        <span><span class="divider">/</span> Sản phẩm</span>
+                    }
+                </nav>
+            </div>
+        </div>
+        @if (ViewBag.Search != null)
+        {
+            <div class="flex-col medium-text-center">
+                <p class="woocommerce-result-count"> @ViewBag.Count kết quả tìm kiếm cho "@ViewBag.Search"</p>
+            </div>
+        }
+        else
+        {
+            <div class="flex-col medium-text-center">
+                <p class="woocommerce-result-count">Đã hiển thị @ViewBag.Count sản phẩm</p>
+            </div>
+        }
+        <div class="flex-col medium-text-center" style="overflow: visible">
+            <form id="searchForm" class="d-flex" method="post" action="@Url.Action("Products", "Home")">
+                <input id="searchInput" name="searchString" class="form-control me-2 search-bar" type="text" placeholder="Bạn cần tìm gì?" aria-label="Search">
+                <button id="search-btn" asp-controller="Home" asp-action="Products" class="btn btn-outline-primary" type="submit"><i class="fas fa-search"></i></button>
+                <ul id="suggest-box">
+                </ul>
+            </form>
+        </div>
+
+        <script>
+            var form = document.getElementById("searchForm");
+            var input = document.getElementsByName("searchString")[0];
+
+            input.addEventListener("keyup", function (event) {
+                event.preventDefault();
+                if (event.keyCode === 13) { // Kiểm tra xem phím nhấn là phím Enter
+                    form.submit(); // Gọi hành động submit của form
+                }
+            });
+
+            $('#suggest-box').hide();
+
+            $(function () {
+                // Khi người dùng nhập từ khóa vào thẻ input
+                $('#searchInput').keyup(function () {
+                    // Lấy từ khóa và gửi yêu cầu AJAX để tải danh sách gợi ý sản phẩm
+                    var keyword = $(this).val();
+                    $.getJSON('/Home/GetSuggestions', { keyword: keyword }, function (data) {
+                        if (data == "") {
+                            $('#suggest-box').hide();
+                            $('#suggest-box').empty();
+                        }
+                        else {
+                            $('#suggest-box').show();
+                            // Xóa danh sách gợi ý sản phẩm cũ
+                            $('#suggest-box').empty();
+                            // Hiển thị danh sách gợi ý sản phẩm mới
+                            for (var i = 0; i < data.length; i++) {
+                                var str = "";
+                                str += '<li><a href=\"/Home/ProductDetail?maXe=' + $.trim(data[i].maXe) + '\">';
+                                str += '<img src=\"../assets/img/sanpham/' + $.trim(data[i].fileAnh) + '\" alt = "Anh san pham">';
+                                str += '<div><h4 class="productName">' + data[i].tenXe + '</h4>';
+                                str += '<span class="price">' + data[i].giaBan.toLocaleString() + '₫</span>';
+                                str += '</div></a></li>';
+                                $('#suggest-box').append(str);
+                            };
+                        };
+                    });
+                });
+            });
+            // hiện hộp gợi ý khi người dùng nhấn vào input
+            document.getElementById("searchInput").addEventListener("focus", function () {
+                $('#suggest-box').show();
+            });
+            // ẩn hộp gợi ý khi người dùng click ra ngoài input hoặc suggest box
+            $(document).on('click', function (e) {
+                if (!$(e.target).is('#searchInput') && !$(e.target).is('#suggest-box *')) {
+                    $('#suggest-box').hide();
+                }
+            });
+        </script>
+    </div>
+</div>
+
+<main id="main" style="margin-top: 0 !important;">
+    <div class="row category-page-row">
+        <div class="col large-3">
+            <div id="shop-sidebar" class="sidebar-inner col-inner">
+                <aside id="woocommerce_product_categories-13" class="widget woocommerce widget_product_categories">
+                    <span class="widget-title shop-sidebar" style="color: #0a0a0a;">Danh mục sản phẩm</span>
+                    <div class="is-divider small"></div>
+                    @await Component.InvokeAsync("TypeMenu")
+                </aside>
+            </div>
+        </div>
+        <div class="col large-9">
+            <div class="shop-container">
+                <div class="woocommerce-notices-wrapper"></div>
+                <div class="products row row-small large-columns-3">
+                    @if (!Model.Any())
+                    {
+                        <div class="message">
+                            <h3 style="text-align:center">Không tìm thấy sản phẩm phù hợp</h3>
+                        </div>
+                    }
+                    else {
+                        foreach (var item in Model)
+                        {
+                        <div class="product-small col has-hover product">
+                            <div class="col-inner" id="hover-box">
+                                @if(item.GiamGia!=null)
+                                {
+                                    <div class="badge-container absolute left top z-1">
+                                        <div class="callout badge badge-square">
+                                            <div class="badge-inner secondary on-sale">
+                                                <span class="onsale">Giảm giá!</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                                <div class="product-small box ">
+                                    <div class="box-image">
+                                        <div class="image-none">
+                                                <a asp-controller="Home" asp-action="ProductDetail" asp-route-maXe="@item.MaXe">
+                                                    <img width="450" height="360" src="@Url.Content("~/assets/img/sanpham/"+item.FileAnh)" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="box-text box-text-products">
+                                        <div class="title-wrapper">
+                                            <p class="name product-title">
+                                                    <a asp-controller="Home" asp-action="ProductDetail" asp-route-maXe="@item.MaXe">@item.TenXe</a>
+                                            </p>
+                                        </div>
+                                        <div class="price-wrapper">
+                                            <span class="price">
+                                                    @if (item.GiamGia != null)
+                                                    {
+                                                        <del>
+                                                            <span class="woocommerce-Price-amount amount">
+                                                                @string.Format("{0:N0}", item.GiaBan)
+                                                                <span class="woocommerce-Price-currencySymbol"> VNĐ</span>
+                                                            </span>
+                                                        </del>
+                                                        <ins>
+                                                            <span class="woocommerce-Price-amount amount">
+                                                                @string.Format("{0:N0}", item.GiamGia)
+                                                                <span class="woocommerce-Price-currencySymbol"> VNĐ</span>
+                                                            </span>
+                                                        </ins>
+                                                    }
+                                                    else
+                                                    {
+                                                        <span class="woocommerce-Price-amount amount">
+                                                            @string.Format("{0:N0}",item.GiaBan)
+                                                            <span class="woocommerce-Price-currencySymbol"> VNĐ</span>
+                                                        </span>
+                                                    }
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        }
+                    }
+
+                </div>
+
+                @if (Model.Any())
+                {
+                    <div class="container">
+                        <nav class="woocommerce-pagination">
+                            <ul class="page-numbers nav-pagination links text-center">
+                                @if (Model.PageCount > 1)
+                                {
+                                    if (Model.HasPreviousPage)
+                                    {
+                                        <li>
+                                            <a class="page-number" href="@Url.Action("Products", "Home", new { page = Model.PageNumber - 1, searchString = ViewBag.Search, maDong = ViewBag.MaDong })">&laquo;</a>
+                                        </li>
+                                    }
+
+                                    @for (int i = 1; i <= Model.PageCount; i++)
+                                    {
+                                        if (i == Model.PageNumber)
+                                        {
+                                            <li><span class="page-number current">@i</span></li>
+                                        }
+                                        else
+                                        {
+                                            <li><a class="page-number" href="@Url.Action("Products", "Home", new { page = i, searchString = ViewBag.Search, maDong = ViewBag.MaDong })">@i</a></li>
+                                        }
+                                    }
+
+                                    if (Model.HasNextPage)
+                                    {
+                                        <li>
+                                            <a class="page-number" href="@Url.Action("Products", "Home", new { page = Model.PageNumber + 1, searchString = ViewBag.Search, maDong = ViewBag.MaDong })">&raquo;</a>
+                                        </li>
+                                    }
+                                }
+                            </ul>
+                        </nav>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</main>
+

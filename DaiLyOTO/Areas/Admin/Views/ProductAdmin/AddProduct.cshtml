@@ -1,0 +1,97 @@
+﻿@model DaiLyOTO.Models.Xe
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "AddProduct";
+    Layout = "_LayoutAdmin";
+}
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="tile">
+            <h3 class="tile-title">Thêm xe mới</h3>
+
+            <div class="tile-body">
+                <form asp-action="AddProduct" class="row" enctype="multipart/form-data" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="MaXe" class="control-label"></label>
+                        <input asp-for="MaXe" class="form-control" value="@ViewBag.maxMaXeNumber" readonly />
+                        <span asp-validation-for="MaXe" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="TenXe" class="control-label"></label>
+                        <input asp-for="TenXe" class="form-control"/>
+                        <span asp-validation-for="TenXe" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="MaDong" class="control-label"></label>
+                        <select asp-for="MaDong" class="form-control" asp-items="ViewBag.MaDong"></select>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="FileAnh" class="control-label"></label>
+                        <input asp-for="FileAnh" id="image" class="form-control" />
+                        <input type="file" id="imageUpload" name="imageFile" class="form-control-file" />
+                        <span asp-validation-for="FileAnh" class="text-danger"></span>
+
+                    </div>
+                    <script>
+                        // Lắng nghe sự kiện khi người dùng chọn tệp tin ảnh
+                        $('#imageUpload').change(function (e) {
+                            // Lấy tên tệp tin đã chọn
+                            var fileName = e.target.files[0].name;
+                            // Cập nhật giá trị của input asp-for với tên tệp tin đã chọn
+                            $('#image').val(fileName);
+                        });
+                    </script>
+                    <div class="form-group col-md-4">
+                        <label asp-for="SoLuong" class="control-label"></label>
+                        <input asp-for="SoLuong" class="form-control" />
+                        <span asp-validation-for="SoLuong" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="KieuXe" class="control-label"></label>
+                        <input asp-for="KieuXe" class="form-control" />
+                        <span asp-validation-for="KieuXe" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="MauSac" class="control-label"></label>
+                        <input asp-for="MauSac" class="form-control" />
+                        <span asp-validation-for="MauSac" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="NamSx" class="control-label"></label>
+                        <input asp-for="NamSx" class="form-control" />
+                        <span asp-validation-for="NamSx" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="GiaBan" class="control-label"></label>
+                        <input asp-for="GiaBan" class="form-control" />
+                        <span asp-validation-for="GiaBan" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label asp-for="MoTa" class="control-label"></label>
+                        <input asp-for="MoTa" class="form-control" />
+                        <span asp-validation-for="MoTa" class="text-danger"></span>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <input type="submit" value="Xác nhận" class="btn btn-save" />
+                        <a class="btn btn-cancel" asp-controller="ProductAdmin" asp-action="GetAllProduct">Hủy</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@*show toast*@
+@if (TempData["Message"] != null)
+{
+    <script>
+        Swal.fire({
+            icon: '@TempData["MessageType"]',
+            title: '@TempData["Message"]'
+        });
+    </script>
+}
+
+

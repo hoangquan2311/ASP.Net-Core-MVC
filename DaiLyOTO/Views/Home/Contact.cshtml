@@ -1,0 +1,73 @@
+﻿@model DaiLyOTO.Models.YeuCauTuVan
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Liên hệ";
+    Layout = "_Layout";
+}
+
+<main id="main">
+    <div id="content" class="content-area page-wrapper" role="main">
+        <div class="row row-main">
+            <div class="large-12 col">
+                <div class="col-inner">
+                    <div class="gap-element clearfix" style="display:block; height:auto; padding-top:30px"></div>
+                    <div class="row" id="row-1286232791">
+                        <div class="col medium-6 small-12 large-6">
+                            <div class="col-inner" style="color: #0a0a0a;">
+                                <h3 style="color: #0a0a0a;"><strong>ĐẠI LÝ HYUNDAI CẦU GIẤY ®</strong></h3>
+                                <p><strong><i class="fas fa-home"></i> Showroom:</strong> Số 3 Cầu Giấy, P.Láng Thượng, Q.Đống Đa, Hà Nội</p>
+                                <p><strong><i class="fas fa-phone"></i> Điện thoại:</strong> 0966.111.11</p>
+                                <p><strong><i class="fas fa-envelope"></i> Email:</strong> hyundai.caugiay@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="col medium-6 small-12 large-6">
+                            <div class="col-inner">
+                                <div role="form" class="" lang="en-US" dir="ltr">
+                                    <div class="screen-reader-response"></div>
+                                    <form method="post" asp-action="Contact">
+                                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                        <div style="text-align: center; background-color: #262626; padding: 10px 20px; color: #fff;">
+                                            <a style="font-size: 200%; font-weight: 700; color: #f0c808;"><i class="fa fa-phone" aria-hidden="true"></i> 0966.111.11 </a><br><span style="font-size: 90%; font-style: italic; color: #fff; display: block!important;">Quý khách hàng vui lòng để lại thông tin, nhân viên của chúng tôi sẽ gọi lại ngay lập tức!</span>
+                                        </div>
+                                        <div style="padding: 10px; background-color: #c4172c;">
+                                            <p style="margin-bottom: 0; font-size: 120%; text-align: center; font-weight: 700; color: #fff;">YÊU CẦU TƯ VẤN</p>
+                                        </div>
+                                        <div style="padding: 20px; background-color: #efefef;">
+                                            <div class="form-group">
+                                                <label asp-for="HoTen" class="control-label">Họ và tên</label>
+                                                <input asp-for="HoTen" class="form-control" placeholder="Nguyễn Văn A"/>
+                                                <span asp-validation-for="HoTen" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <label asp-for="Sdt" class="control-label">Số điện thoại</label>
+                                                <input asp-for="Sdt" class="form-control" placeholder="0912345678"/>
+                                                <span asp-validation-for="Sdt" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <input asp-for="NoiDung" class="form-control" placeholder="Ghi chú."/>
+                                                <span asp-validation-for="NoiDung" class="text-danger"></span>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="submit" value="Gửi yêu cầu ngay" class="submit">
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    @*show toast*@
+    @if (TempData["Message"] != null)
+    {
+        <script>
+            Swal.fire({
+                icon: '@TempData["MessageType"]',
+                title: '@TempData["Message"]'
+            });
+        </script>
+    }
+</main>

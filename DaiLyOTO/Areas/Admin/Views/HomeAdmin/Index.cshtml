@@ -1,0 +1,149 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_LayoutAdmin";
+}
+
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="app-title">
+            <ul class="app-breadcrumb breadcrumb">
+                <li class="breadcrumb-item"><a href="#"><b>Bảng điều khiển</b></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <!--Left-->
+    <div class="col-md-12 col-lg-12">
+        <div class="row">
+            <!-- col-6 -->
+            <div class="col-md-4">
+                <div class="widget-small info coloured-icon">
+                    <i class='icon fas fa-file-spreadsheet fa-3x'></i>
+                    <div class="info">
+                        <h4>Tổng phiếu đăng ký lái thử</h4>
+                        <p><b>@ViewBag.countDrive phiếu</b></p>
+                        <p class="info-tong">Tổng số phiếu trên hệ thống.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- col-6 -->
+            <div class="col-md-4">
+                <div class="widget-small warning coloured-icon">
+                    <i class='icon fas fa-cars fa-3x'></i>
+                    <div class="info">
+                        <h4>Tổng số xe</h4>
+                        <p><b>@ViewBag.countProduct chiếc</b></p>
+                        <p class="info-tong">Tổng số xe được quản lý.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- col-6 -->
+            <div class="col-md-4">
+                <div class="widget-small primary coloured-icon">
+                    <i class='icon fas fa-phone fa-3x'></i>
+                    <div class="info">
+                        <h4>Tổng yêu cầu tư vấn</h4>
+                        <p><b>@ViewBag.countContact yêu cầu</b></p>
+                        <p class="info-tong">Tổng số yêu cầu tư vấn trên hệ thống.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- col-6 -->
+            <!-- col-12 -->
+            <div class="col-md-12">
+                <div class="tile">
+                    <h3 class="tile-title">PHIẾU ĐĂNG KÝ LÁI THỬ GẦN ĐÂY</h3>
+                    <div>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>ID phiếu</th>
+                                    <th>Tên khách hàng</th>
+                                    <th>Số điện thoại</th>
+                                    <th>Tên xe</th>
+                                    <th>Ngày gửi</th>
+                                    <th>Ngày dự kiến</th>
+                                    <th>Ghi chú</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in ViewBag.Drive)
+                                {
+                                    <tr>
+                                        <td>@item.Drive.MaDk</td>
+                                        <td>@item.Drive.HoTen</td>
+                                        <td>@item.Drive.Sdt</td>
+                                        <td>@item.Product.TenXe</td>
+                                        <td>@item.Drive.NgayGui</td>
+                                        <td>@item.Drive.ThoiGianDk</td>
+                                        <td>@item.Drive.GhiChu</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- / div trống-->
+                </div>
+            </div>
+            <!-- / col-12 -->
+            <!-- col-12 -->
+            <div class="col-md-12">
+                <div class="tile">
+                    <h3 class="tile-title">YÊU CẦU TƯ VẤN GẦN ĐÂY</h3>
+                    <div>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Mã yêu cầu</th>
+                                    <th>Tên khách hàng</th>
+                                    <th>Số điện thoại</th>
+                                    <th>Nội dung</th>
+                                    <th>Ngày gửi</th>
+                                    <th>Nhân viên hỗ trợ</th>
+                                    <th>Trạng thái</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    @foreach (var item in ViewBag.Contact)
+                                    {
+                                    <tr>
+                                        <td>@item.Contact.MaYc</td>
+                                        <td>@item.Contact.HoTen</td>
+                                        <td>@item.Contact.Sdt</td>
+                                        <td>@item.Contact.NoiDung</td>
+                                        <td>@item.Contact.NgayGui</td>
+                                        <td>@item.NV.HoTen</td>
+                                        <td>@item.Contact.TrangThai</td>
+                                    </tr>
+                                    }
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+            <!-- / col-12 -->
+        </div>
+    </div>
+    <!--END left-->
+
+</div>
+
+
+<div class="text-center" style="font-size: 13px">
+    <p>
+        <b>
+            Copyright
+            <script type="text/javascript">
+                document.write(new Date().getFullYear());
+            </script> Phần mềm quản lý bán ô tô
+        </b>
+    </p>
+</div>

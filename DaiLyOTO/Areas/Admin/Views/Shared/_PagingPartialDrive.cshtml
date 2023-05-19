@@ -1,0 +1,13 @@
+﻿@using X.PagedList.Web.Common
+@using X.PagedList.Mvc.Core
+@using DaiLyOTO.Models.ViewModel
+@model X.PagedList.IPagedList<DriveViewModel>
+<div class="row">
+    <div class="col-sm-12 col-md-7">
+        <div class="dataTables_paginate paging_simple_numbers" id="sampleTable_paginate">
+            <ul class="pagination">
+                @Html.PagedListPager(Model, page => Url.Action("GetAllDrive", new { page = page, pageSize =  ViewBag.pageSize, filter = ViewBag.filter}))
+            </ul>
+        </div>
+    </div>
+</div>
