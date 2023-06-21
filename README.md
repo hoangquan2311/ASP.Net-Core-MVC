@@ -1,2 +1,3 @@
 # HyundaiCauGiay
-ASP.Net Core MVC Website
+Based on ASP.Net Core MVC
+Hyundai garage managements
